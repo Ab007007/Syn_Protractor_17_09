@@ -7,6 +7,7 @@ function sum(a , b) {
     console.log(`Sum of two numbers ${a} and ${b} is ${a+b}`); 
 }
 sum(25,55)
+sum(55,55)
 /*
  	Subtraction 	->	-
  	Multiplication	-> 	*
