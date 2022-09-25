@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664079961139' stop='1664079984922'>
+    <name>Protractor Demo App</name>
+    <title>Protractor Demo App</title>
+    <test-cases>
+        <test-case start='1664079961140' status='passed' stop='1664079984920'>
+            <name>Development</name>
+            <title>Development</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fbf3068f-b31a-4d7c-8057-3d2419af121b-attachment.png' type='image/png' size='15333'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

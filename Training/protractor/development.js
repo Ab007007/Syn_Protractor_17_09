@@ -1,26 +1,35 @@
 const { clear } = require("console");
+var Objects  = require("./data/ObjectRepository.json")
+var data = require('./data/TestData.json')
+var using = require('jasmine-data-provider');
 
 describe('Actions - Demo', function() {
 
-    it('Development', function() {
-      browser.waitForAngularEnabled(false)
-      browser.get('https://www.flipkart.com/');
-      browser.driver.manage().window().maximize();
-      
-    
-      var EC = protractor.ExpectedConditions
-      browser.wait(EC.visibilityOf(element(by.xpath("//button[@class='_2KpZ6l _2doB4z']"))),15000); 
-      element(by.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
+  function formTestdata() {
+    return [
+      {fn:data.formdata.user1.fn, ln:data.formdata.user1.ln,jt:data.formdata.user1.jt},
+      {fn:data.formdata.user2.fn, ln:data.formdata.user2.ln,jt:data.formdata.user2.jt}
+    ]
+  }
 
-      element(by.xpath("//div[text()='Mobiles']/parent::a")).click().then(function(){
-        browser.sleep(5000).then(function(){
-          browser.actions().mouseMove(element(by.xpath("//span[text()='Men']"))).perform();
-          browser.sleep(5000)
-          browser.actions().mouseMove(element(by.xpath("//span[text()='Women']"))).perform();
-          browser.sleep(5000)
-          browser.actions().mouseMove(element(by.xpath("//span[text()='Sports, Books & More']"))).perform();
-        })
+  using(formTestdata, function(testdata){
+    it('Handling Frame', function() {
+      browser.waitForAngularEnabled(false)
+      browser.get(Objects.formurl);
+      element(by.id(Objects.Formy_locators.formPage["first-name-id"])).sendKeys(testdata.fn);
+      element(by.id(Objects.Formy_locators.formPage["last-name-id"])).sendKeys(testdata.ln);
+      element(by.id(Objects.Formy_locators.formPage["job-title-id"])).sendKeys(testdata.jt);
+      element(by.linkText(Objects.Formy_locators.formPage["Submit-linkText"])).click().then(function(){
+        browser.sleep(4000)
+        element(by.className(Objects.Formy_locators.formPage["alert-success-class"])).getText().then(function(sm){
+          console.log(sm);
+        });
       });
-    }, 60000);
+      
+     }, 60000);
+
+
+  })
+
   });
 

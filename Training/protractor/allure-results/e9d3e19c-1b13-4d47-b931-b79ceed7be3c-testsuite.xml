@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664103486019' stop='1664103515321'>
+    <name>Test using POM</name>
+    <title>Test using POM</title>
+    <test-cases>
+        <test-case start='1664103486020' status='passed' stop='1664103510349'>
+            <name>Division Test using POM</name>
+            <title>Division Test using POM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e5daefb5-28e1-4180-9f25-db6151fd9dba-attachment.png' type='image/png' size='15259'/>
+            </attachments>
+        </test-case>
+        <test-case start='1664103510349' status='passed' stop='1664103513024'>
+            <name>Division Test using POM</name>
+            <title>Division Test using POM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='351fa9eb-9e5b-423a-b50e-d85afb2345a6-attachment.png' type='image/png' size='16996'/>
+            </attachments>
+        </test-case>
+        <test-case start='1664103513024' status='passed' stop='1664103513779'>
+            <name>Division Test using POM</name>
+            <title>Division Test using POM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bd4fd98a-a94a-4883-8cdf-74f021b46202-attachment.png' type='image/png' size='13591'/>
+            </attachments>
+        </test-case>
+        <test-case start='1664103513779' status='passed' stop='1664103514586'>
+            <name>Division Test using POM</name>
+            <title>Division Test using POM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5293a799-b46c-4260-b582-576f679111e1-attachment.png' type='image/png' size='13159'/>
+            </attachments>
+        </test-case>
+        <test-case start='1664103514587' status='passed' stop='1664103515319'>
+            <name>Division Test using POM</name>
+            <title>Division Test using POM</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='11b332e9-c359-44d4-a3a1-4421ba3010e4-attachment.png' type='image/png' size='13425'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

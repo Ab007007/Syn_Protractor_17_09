@@ -15,7 +15,11 @@ exports.config = {
     framework: 'jasmine',
   //  seleniumAddress: 'http://localhost:4444/wd/hub',
   // specs: ['development.js', 'ChainLocators.js'],
-  specs: ['development.js'  ],
+  specs: ['test/POMDataDriven.js'  ],
+  suites : {
+    smoke : ['Addition.js', 'Frames.js'],
+    regression : ['test/*.js']
+  },
     capabilities: {
       'browserName': 'chrome'
     }, 

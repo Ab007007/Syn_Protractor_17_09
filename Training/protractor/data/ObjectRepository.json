@@ -1,0 +1,26 @@
+{
+    "url" : "https://jqueryui.com/droppable/",
+    "formurl" : "http://formy-project.herokuapp.com/form",
+    "supercal_url" : "http://juliemr.github.io/protractor-demo/",
+
+    "jquery_locators" : {
+        "draganddropPage" : {
+            "dragEle" : "draggable",
+            "dropEle" : "droppable"
+        },
+        "droppablePage" : {}
+       
+    },
+    "Formy_locators" : {
+        
+        "formPage" : {
+            "first-name-id" : "first-name",
+            "last-name-id"  : "last-name",
+            "job-title-id"  : "job-title",
+            "Submit-linkText" : "Submit",
+            "alert-success-class"  : "alert alert-success"
+        }
+
+    }
+
+}

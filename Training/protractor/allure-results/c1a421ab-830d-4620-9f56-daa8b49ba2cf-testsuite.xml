@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664102112163' stop='1664102124035'>
+    <name>Actions - Demo</name>
+    <title>Actions - Demo</title>
+    <test-cases>
+        <test-case start='1664102112164' status='passed' stop='1664102119216'>
+            <name>Handling Frame</name>
+            <title>Handling Frame</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='418c8051-dd79-4fe9-9e23-86521119a60e-attachment.png' type='image/png' size='17544'/>
+            </attachments>
+        </test-case>
+        <test-case start='1664102119216' status='passed' stop='1664102124034'>
+            <name>Handling Frame</name>
+            <title>Handling Frame</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='15881fbd-231e-4c5f-8f0b-06093509d46d-attachment.png' type='image/png' size='17544'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
